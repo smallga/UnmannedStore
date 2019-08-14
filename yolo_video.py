@@ -18,7 +18,7 @@ def detect_img(yolo):
             r_image = yolo.detect_image(image)
             #r_image.convert("RGB")
             r_image.save('result.png')
-            show_img = Image.open('/content/fruit_object_detect/result.png','r')
+            show_img = Image.open('/content/UnmannedStore/result.png','r')
             figure(figsize = (20,20))
             imshow(np.asarray(show_img))
             # display(Image('/content/fruit_object_detect/result.png'))
