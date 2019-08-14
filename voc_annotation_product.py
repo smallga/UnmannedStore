@@ -3,14 +3,14 @@ from os import getcwd
 
 sets=[('2019', 'train'), ('2019', 'val'), ('2019', 'test')]
 
-classes = ["Maltese_dog","Old_English_sheepdog","Siberian_husky","pug","Pomeranian"]
+classes = ["buzz","pig","goofy"]
 
 #for count object number
 class_num = len(classes)
 cls_count = [0] * class_num
 
 def convert_annotation(year, image_id, list_file):
-    in_file = open('DOG2019/DogAnnotations/%s'%(image_id))
+    in_file = open('Product/ProductAnnotations/%s'%(image_id))
     tree=ET.parse(in_file)
     root = tree.getroot()
 
@@ -30,10 +30,10 @@ def convert_annotation(year, image_id, list_file):
 wd = getcwd()
 
 for year, image_set in sets:
-    image_ids = open('DOG2019/ImageSets/Main/%s.txt'%(image_set)).read().strip().split()
+    image_ids = open('Product/ImageSets/Main/%s.txt'%(image_set)).read().strip().split()
     list_file = open('%s_%s.txt'%(year, image_set), 'w')
     for image_id in image_ids:
-        list_file.write('%s/DOG2019/DogImage/%s.jpg'%(wd, image_id))
+        list_file.write('%s/Product/ProductImage/%s.jpg'%(wd, image_id))
         convert_annotation(year, image_id, list_file)
         list_file.write('\n')
     list_file.close()

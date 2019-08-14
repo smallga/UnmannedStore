@@ -1,0 +1,26 @@
+<annotation>
+	<folder>buzz_000</folder>
+	<filename>buzz_213.jpg</filename>
+	<path>C:\Users\briansuen\Desktop\無人商店\巴斯\buzz_000\buzz_213.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>540</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>buzz</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>175</xmin>
+			<ymin>164</ymin>
+			<xmax>374</xmax>
+			<ymax>656</ymax>
+		</bndbox>
+	</object>
+</annotation>

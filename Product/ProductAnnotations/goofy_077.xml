@@ -1,0 +1,26 @@
+<annotation>
+	<folder>goofy_000</folder>
+	<filename>goofy_077.jpg</filename>
+	<path>C:\Users\briansuen\Desktop\無人商店\高飛\goofy_000\goofy_077.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>540</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>goofy</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>64</xmin>
+			<ymin>161</ymin>
+			<xmax>413</xmax>
+			<ymax>815</ymax>
+		</bndbox>
+	</object>
+</annotation>
