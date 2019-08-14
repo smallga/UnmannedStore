@@ -10,7 +10,7 @@ class_num = len(classes)
 cls_count = [0] * class_num
 
 def convert_annotation(year, image_id, list_file):
-    in_file = open('Product/ProductAnnotations/%s'%(image_id))
+    in_file = open('Product/ProductAnnotations/%s.xml'%(image_id))
     tree=ET.parse(in_file)
     root = tree.getroot()
 
