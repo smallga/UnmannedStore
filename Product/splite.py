@@ -26,13 +26,13 @@ fval = open('ImageSets/Main/val.txt', 'w')
 for i in list:
     name = total_xml[i] + '\n'
     if i in trainval:
-        ftrainval.write(name)
+        ftrainval.write((name.split('.'))[0])
         if i in train:
-            ftest.write(name)
+            ftest.write((name.split('.'))[0])
         else:
-            fval.write(name)
+            fval.write((name.split('.'))[0])
     else:
-        ftrain.write(name)
+        ftrain.write((name.split('.'))[0])
 
 ftrainval.close()
 ftrain.close()
