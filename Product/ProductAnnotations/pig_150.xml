@@ -1,0 +1,26 @@
+<annotation>
+	<folder>pig_000</folder>
+	<filename>pig_150.jpg</filename>
+	<path>C:\Users\briansuen\Desktop\無人商店\小豬\pig_000\pig_150.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>540</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pig</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>75</xmin>
+			<ymin>312</ymin>
+			<xmax>294</xmax>
+			<ymax>539</ymax>
+		</bndbox>
+	</object>
+</annotation>
