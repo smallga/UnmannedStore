@@ -1,0 +1,26 @@
+<annotation>
+	<folder>capture_000</folder>
+	<filename>capture03346.jpg</filename>
+	<path>C:\Users\briansuen\Desktop\無人商店\capture_000\capture03346.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pig</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>285</xmin>
+			<ymin>168</ymin>
+			<xmax>389</xmax>
+			<ymax>386</ymax>
+		</bndbox>
+	</object>
+</annotation>
