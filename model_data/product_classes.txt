@@ -1,3 +1,4 @@
 buzz
 pig
 goofy
+rex
