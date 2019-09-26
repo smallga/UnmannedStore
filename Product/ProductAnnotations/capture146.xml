@@ -1,0 +1,38 @@
+<annotation>
+	<folder>train</folder>
+	<filename>capture146.jpg</filename>
+	<path>D:\無人商店\rex car goofy\train\capture146.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>goofy</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>672</xmin>
+			<ymin>187</ymin>
+			<xmax>1118</xmax>
+			<ymax>623</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rex</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>312</xmin>
+			<ymin>83</ymin>
+			<xmax>659</xmax>
+			<ymax>619</ymax>
+		</bndbox>
+	</object>
+</annotation>
